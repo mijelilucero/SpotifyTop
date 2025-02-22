@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Canciones de Spotify</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1db954;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #191414;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        button {
+            background-color: #1ed760;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #1db954;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: #282828;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Mis 10 Canciones Más Escuchadas</h1>
+    <button id="obtener-canciones">Obtener Canciones</button>
+    <ul id="lista-canciones"></ul>
+</div>
+
+<script>
+    document.getElementById("obtener-canciones").addEventListener("click", obtenerYMostrarCanciones);
+
+    function obtenerYMostrarCanciones() {
+        console.log("Función obtenerYMostrarCanciones ejecutada.");
+        // Aquí irá la lógica para obtener y mostrar las canciones
+    }
+</script>
+</body>
+</html>
