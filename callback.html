@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Top 10 Canciones de Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Mis Top 10 Canciones de Spotify</h1>
+    <div id="user-profile">
+        <div id="user-info"></div>
+    </div>
+    <div id="tracks-container">
+        <h2>Mis canciones más escuchadas</h2>
+        <div id="top-tracks"></div>
+        <div id="player-controls">
+            <button id="play-button" class="control-button">Reproducir siguiente</button>
+            <div id="now-playing" class="hidden">
+                <h3>Reproduciendo ahora:</h3>
+                <div id="current-track"></div>
+            </div>
+        </div>
+    </div>
+    <button id="logout-button" class="spotify-button">Cerrar sesión</button>
+</div>
+
+<script src="auth.js"></script>
+<script src="Queue.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
